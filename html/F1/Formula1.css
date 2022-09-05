@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+	padding: 0;
+    background-color: white;
+   font-family: 'Quicksand', sans-serif;
+    height: 100%;
+}
+h1{
+    margin-left: 5%;
+    color:black;
+    font-size: 70px;
+}
+.h2_ForMainPageHeader{
+    font-size: 30px;
+    margin-left: 5%;
+    -webkit-text-stroke: .04em black;
+    color:antiquewhite;
+}
+.HeaderLi{
+    border: 1px solid antiquewhite;
+    font-size: 20px;
+    font-weight: 500;
+    width:200px;
+    text-align: center;
+    color:black;
+    transition: 1s;
+    padding:24px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    border-radius: 30px;
+}
+.HeaderLi:hover {
+    border: 1px solid black;
+
+    
+   
+    color:antiquewhite;
+    background-color: black;
+    transition: 1s;
+}
+.HeaderNav{
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+.HeaderDiv{
+    width: 75%;
+    display: inline-block;
+}
+.ExtraInfDiv{
+    font-size: 18px;
+    color:black;
+    padding:10px;
+    text-align: center;
+   display: inline-block; 
+    width:23%;
+}
+@media(max-width:1240px){
+    .ExtraInfDiv{
+        display: none;
+    }
+    .HeaderDiv{
+        width:100%;
+    }
+}
+.FooterNav{
+    border-top: 1px solid grey;
+}
+footer{
+    margin-top:50px;
+    font-size: 15px;
+    color:black;
+
+	left: 10px;
+	bottom: 10px;
+	width: 100%;
+	height: 80px;
+    
+}
+.FooterLi{
+     color:darkgoldenrod;
+     padding:0;
+    padding-top:10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+hr{
+    height: 1px;
+    width:100%;
+    
+}
+.DivRights{
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    vertical-align: top;
+    padding-top: 24px; 
+    padding-bottom:24px;
+    padding-left: 40px;
+    left: 10px;
+}
+.LiFooter{
+     color: black;
+    padding: 24px;
+}
+.FirstFooterLi{
+    color: black;
+    padding-right:24px;
+}
+.FooterBoarderForLi{
+    display: inline-block;
+    width: 1px;
+    height:12px;
+    background-color: black;
+}
+h1 a{
+    text-decoration: none;
+    color:black;
+}
+li a{
+    text-decoration: none;
+    color:black;
+}
+.HeaderLi:hover a{
+    color:antiquewhite;
+}
+.F1word{
+    font-size: 50px;
+}
+.p1{
+    display: inline-block;
+    width:80%;
+}
+.s1,.s3,.s4,.s5,.s6{
+    text-align: justify;
+    width:70%;
+}
+.s2{
+      text-align: justify;
+    width:70%;
+}
+h3{
+    text-shadow: 2px 2px 2px;
+}
+.p2,.p3{
+    display: inline-block;
+   width:80%; 
+}
+.TeamsF1{
+    font-size: 4vw;
+}
+.MercF1, .RedBullF1, .McLarenF1, .FerrariF1, .AlpineF1, .AstonMartinF1, .ATauriF1, .WilliamsF1, .HaasF1, .AlfaRomeoF1{
+    
+    padding:24px;
+    font-size: 2vw;
+     text-decoration: none;
+    list-style-type: none;
+    transition: 1s;
+       
+}
+.TeamsF1 a{
+    transition: 1s;
+    color:black;
+    text-decoration: none;
+    
+    list-style-type: none;
+}
+.MercF1:hover, .RedBullF1:hover, .McLarenF1:hover, .FerrariF1:hover, .AlpineF1:hover, .AstonMartinF1:hover, .ATauriF1:hover, .WilliamsF1:hover, .HaasF1:hover, .AlfaRomeoF1:hover{
+    transition: 1s;
+    transform: scale(1.3);
+}
