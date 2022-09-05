@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+	padding: 0;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+}
+
+main{
+position: relative;
+  min-height: 80%;
+}
+html,
+body {
+  height: 100%;
+}
+h1{
+    margin-left: 5%;
+    color:black;
+    font-size: 70px;
+}
+.h2_ForMainPageHeader{
+    font-size: 30px;
+    margin-left: 5%;
+    -webkit-text-stroke: .04em black;
+    color:antiquewhite;
+}
+.HeaderLi{
+    font-size: 20px;
+    font-weight: 500;
+    width:200px;
+    text-align: center;
+    color:black;
+    transition: 1s;
+    padding:24px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+.HeaderLi:hover {
+    border: 1px solid black;
+    padding:20px;
+    border-radius: 30px;
+    color:antiquewhite;
+    background-color: black;
+    transition: 1s;
+}
+.HeaderNav{
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+
+
+
+.HeaderDiv{
+    width: 75%;
+    display: inline-block;
+}
+.ExtraInfDiv{
+    font-size: 18px;
+    color:black;
+    padding:10px;
+    text-align: center;
+   display: inline-block; 
+    width:23%;
+}
+@media(max-width:1240px){
+    .ExtraInfDiv{
+        display: none;
+    }
+    .HeaderDiv{
+        width:100%;
+    }
+}
+footer{
+    margin-top:50px;
+    font-size: 15px;
+    color:black;
+	left: 10px;
+	bottom: 10px;
+	width: 100%;
+	height: 80px;
+    
+}
+.LiFooter{
+     color: black;
+    padding: 24px;
+}
+.FirstFooterLi{
+    color: black;
+    padding-right:24px;
+}
+.FooterBoarderForLi{
+    display: inline-block;
+    width: 1px;
+    height:12px;
+    background-color: black;
+}
+h1 a{
+    text-decoration: none;
+    color:black;
+}
+li a{
+    text-decoration: none;
+    color:black;
+}
+
+.HeaderLi:hover a{
+    color:antiquewhite;
+}
+main{
+    margin-left: 5%;
+}
+.FirstLook{
+    font-size: 20px;
+    text-align: justify;
+   
+}
+.NameForDiv{
+    font-size:70px;  
+}
+.Name{
+ width:70%;
+    text-align: center;
+    font-size: 80px;
+}
+.FitstLook1{
+     text-align: justify;
+}
+.NameForP{
+    font-size: 30px;
+}
+img{
+    transition: 0.5s;
+    border:1px solid black;
+    border-radius: 30px;
+    vertical-align: top;
+    margin-left:5%;
+    display:inline-block;
+    width:20%;
+}
+img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.MainInf{
+    width:70%;
+    display:inline-block;
+}
+@media(max-width:1070px){
+    main{
+    margin-left: 2%;
+    margin-right: 2%;
+    }
+    img{
+        visibility: hidden;
+    }
+    .Name{
+        width:100%;
+    }
+     .MainInf{
+           width:100%; 
+    }
+}

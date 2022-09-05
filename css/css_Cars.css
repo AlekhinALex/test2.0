@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+	padding: 0;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+}
+h1{
+    margin-left: 5%;
+    color:black;
+    font-size: 70px;
+}
+.h2_ForMainPageHeader{
+    font-size: 30px;
+    margin-left: 5%;
+    -webkit-text-stroke: .04em black;
+    color:antiquewhite;
+}
+.HeaderLi{
+    border: 1px solid antiquewhite;
+    font-size: 20px;
+    font-weight: 500;
+    width:200px;
+    text-align: center;
+    color:black;
+    transition: 1s;
+    padding:24px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    border-radius: 30px;
+}
+.HeaderLi:hover {
+    border: 1px solid black;
+
+    
+   
+    color:antiquewhite;
+    background-color: black;
+    transition: 1s;
+}
+.HeaderNav{
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+.HeaderDiv{
+    width: 75%;
+    display: inline-block;
+}
+.ExtraInfDiv{
+    font-size: 18px;
+    color:black;
+    padding:10px;
+    text-align: center;
+   display: inline-block; 
+    width:23%;
+}
+@media(max-width:1240px){
+    .ExtraInfDiv{
+        display: none;
+    }
+    .HeaderDiv{
+        width:100%;
+    }
+}
+.FooterNav{
+    border-top: 1px solid grey;
+}
+footer{
+    margin-top:50px;
+    font-size: 15px;
+    color:black;
+
+	left: 10px;
+	bottom: 10px;
+	width: 100%;
+	height: 80px;
+    
+}
+.FooterLi{
+     color:darkgoldenrod;
+     padding:0;
+    padding-top:10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+.DivRights{
+ border-top: 1px solid grey;
+    vertical-align: top;
+    padding-top: 24px; 
+    padding-bottom: 24px; 
+    padding-left: 40px;
+    left: 10px;
+}
+.FooterLi{
+     color:darkgoldenrod;
+     padding:0;
+    padding-top:10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+.DivRights{
+ border-top: 1px solid grey;
+    vertical-align: top;
+    padding-top: 24px; 
+    padding-bottom: 24px; 
+    padding-left: 40px;
+    left: 10px;
+}
+.LiFooter{
+     color: black;
+    padding: 24px;
+}
+.FirstFooterLi{
+    color: black;
+    padding-right:24px;
+}
+.FooterBoarderForLi{
+    display: inline-block;
+    width: 1px;
+    height:12px;
+    background-color: black;
+}
+h1 a{
+    text-decoration: none;
+    color:black;
+}
+li a{
+    text-decoration: none;
+    color:black;
+}
+.HeaderLi:hover a{
+    color:antiquewhite;
+}
+.ColumnF1{
+    padding: 40px;
+     border-radius: 30px;
+    vertical-align: middle;
+    transition: 1s;
+    color:black;
+     -webkit-text-stroke: 1.5px white;
+    text-align: center;
+    font-size: 5vw;
+     background-position: center;
+    border: 1px solid black;
+   background:url(../img/belyy-list_45419763_orig_.jpeg.opdownload);
+    
+        display: inline-block;
+    width:35%;
+}
+.ColumnF1 p{
+    display:inline-block;
+    vertical-align: bottom;
+}
+.ColumnF1:hover{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     background:url(../img/F1Coluimn.jpg);
+    transition: 1s;
+    transform: scale(1.1);
+    background-position: center;
+}
+.VIP{
+      padding: 40px;
+     border-radius: 30px;
+     margin-left:2%;
+    background:url(../img/belyy-list_45419763_orig_.jpeg.opdownload);
+ transition: 1s;
+     color:black;
+     -webkit-text-stroke: 1.5px white;
+    text-align: center;
+    font-size: 4vw;
+     background-position: center;
+    border: 1px solid black;
+   display: inline-block;
+     width:20%;
+}
+.VIP:hover{
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+     background:url(../img/Rolls-Royce-Wraith-Kryptos-640x427.jpg);
+    transition: 1s;
+    transform: scale(1.1);
+    background-position: center;
+}
+.MPCars{
+     border-radius: 30px;
+    margin-left:2%;
+    padding:30px;
+    transition: 1s;
+    color:black;
+     -webkit-text-stroke: 1.5px white;
+    text-align: center;
+    font-size: 5vw;
+     background-position: center;
+    border: 1px solid black;
+   background:url(../img/belyy-list_45419763_orig_.jpeg.opdownload);
+    
+        display: inline-block;
+    width:35%;}
+.MPCars:hover{
+    color:white;
+     -webkit-text-stroke: 2px black;
+       background-attachment: fixed;
+    background-repeat: no-repeat;
+   background:url(../img/scale_1200.webp);
+    transition: 1s;
+    transform: scale(1.1);
+    background-position: center;
+}
+.Advises{
+    padding:55px;
+      border-radius: 30px;
+      background:url(../img/belyy-list_45419763_orig_.jpeg.opdownload);
+ transition: 1s;
+     color:black;
+     -webkit-text-stroke: 1.5px white;
+    text-align: center;
+    font-size: 3vw;
+     background-position: center;
+    border: 1px solid black;
+   display: inline-block;
+     width:20%;
+     display: inline-block;
+}
+.Advises:hover{
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background:url(../img/1565367009_rolls-royce-wraith-agl20-matte-black-7%20123123123123.jpg);
+    transition: 1s;
+    transform: scale(1.1);
+    background-position: center; 
+}
+main a{
+    text-decoration: none;
+    color:black;
+}
+main a{
+    transition: 1s;
+    transform: scale(1.1);
+     color:black;
+     -webkit-text-stroke: 1.5px white;
+}
